@@ -296,18 +296,29 @@ namespace BookStore.Client
         }
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            FileStream fs = new FileStream("C:\\Users\\deso9\\Desktop\\BooksInCart.pdf", FileMode.Create, FileAccess.ReadWrite, FileShare.None);
-            Document doc = new Document();
-            PdfWriter writer = PdfWriter.GetInstance(doc, fs);
-            doc.Open();
-
-            foreach (Product product in productsInCart)
+            using (FileStream fs = new FileStream("C:\\Users\\deso9\\Desktop\\BooksInCart.pdf", FileMode.Create, FileAccess.ReadWrite, FileShare.None))
             {
-                Paragraph text = new Paragraph($"{product.Id.ToString()} {product.Book__Name} {product.Category} {product.Genre__Name} {product.Price} {product.Serie} {product.Author__First__Name} {product.Author__Last__Name}");
-                
-                doc.Add(text);
+                Document doc = new Document();
+                PdfWriter writer = PdfWriter.GetInstance(doc, fs);
+                doc.Open();
+
+                if (productsInCart.Count == 0)
+                {
+                    Paragraph text = new Paragraph($"No books");
+
+                    doc.Add(text);
+                }
+                else
+                {
+                    foreach (Product product in productsInCart)
+                    {
+                        Paragraph text = new Paragraph($"{product.Id.ToString()} {product.Book__Name} {product.Category} {product.Genre__Name} {product.Price} {product.Serie} {product.Author__First__Name} {product.Author__Last__Name}");
+
+                        doc.Add(text);
+                    }
+                }
+                doc.Close();
             }
-            doc.Close();
         }
     }
 }
