@@ -307,6 +307,8 @@ namespace BookStore.Client
                     Paragraph text = new Paragraph($"No books");
 
                     doc.Add(text);
+
+                    contentControl.Content = "No books in the Cart";
                 }
                 else
                 {
@@ -316,6 +318,7 @@ namespace BookStore.Client
 
                         doc.Add(text);
                     }
+                    contentControl.Content = "PDF file with products is saved to desktop";
                 }
                 doc.Close();
             }

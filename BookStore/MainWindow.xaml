@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BookStore.Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="341.5" Width="792">
+        Title="MainWindow" Height="370.5" Width="792">
     <Grid>
         <DataGrid x:Name="DataGrid1" HorizontalAlignment="Left" Height="184" Margin="10,44,0,0" VerticalAlignment="Top" Width="764" SelectionChanged="DataGrid1_SelectionChanged">
         </DataGrid>
@@ -14,10 +14,11 @@
         <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18" TextChanged="searchBox_TextChanged"/>
         <ComboBox x:Name="SearchByBox" HorizontalAlignment="Left" Margin="492,10,0,0" VerticalAlignment="Top" Width="202" Height="29" SelectionChanged="ComboBox_SelectionChanged" FontSize="18"/>
         <Button Content="Add to cart" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top" Width="764" Height="28" Click="Button_Click_1"/>
-        <Button Content="Load books from json..." HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" Width="193" Click="Button_Click_2" Height="30"/>
-        <Button Content="Buy books" HorizontalAlignment="Left" Margin="592,266,0,0" VerticalAlignment="Top" Width="182" Height="30" Click="Button_Click_3"/>
+        <Button HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top" Width="193" Click="Button_Click_2" Height="30" Content="Load books from json..."/>
+        <Button Content="Export cart to pdf..." HorizontalAlignment="Left" Margin="592,266,0,0" VerticalAlignment="Top" Width="182" Height="30" Click="Button_Click_3"/>
         <Label x:Name="totalPrice" Content="0" HorizontalAlignment="Left" Margin="363,266,0,0" VerticalAlignment="Top" Width="124" Height="30"/>
         <Label Content="Total price:" HorizontalAlignment="Left" Margin="264,266,0,0" VerticalAlignment="Top" Height="28" Width="70"/>
+        <ContentControl x:Name="contentControl" HorizontalAlignment="Left" Height="32" Margin="10,301,0,0" VerticalAlignment="Top" Width="764" BorderBrush="White"/>
 
     </Grid>
 </Window>
