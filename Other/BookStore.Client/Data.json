@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Price": 22,
+    "Name": "The Lightning Thief",
+    "Author": {
+      "Firstname": "Rick",
+      "Lastname": "Riordan"
+    },
+    "Genre": { "Name": "Fantasy" },
+    "Category": { "Name": "hardcover" },
+    "Serie": { "Name": "Percy Jackson and the Olympians" }
+  },
+  {
+    "Price": 21,
+    "Name": "The Thief The",
+    "Author": {
+      "Firstname": "Riordan",
+      "Lastname": "Rick"
+    },
+    "Genre": { "Name": "Comedy" },
+    "Category": { "Name": "paperback" },
+    "Serie": { "Name": "Percy" }
+  }
+]
