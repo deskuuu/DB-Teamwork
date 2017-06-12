@@ -6,11 +6,8 @@ C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.Client
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Client.exe.config
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Client.exe
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Client.pdb
-C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Data.dll
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Models.dll
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Models.pdb
-C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Data.pdb
-C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Data.dll.config
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\EntityFramework.xml
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\MainWindow.baml
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.Client.g.resources
@@ -24,3 +21,5 @@ C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\EntityFramework.
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\Newtonsoft.Json.dll
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\Newtonsoft.Json.xml
 C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Models.dll.config
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\itextsharp.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\itextsharp.xml

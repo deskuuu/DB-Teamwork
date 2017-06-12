@@ -1,5 +1,7 @@
 ﻿using BookStore.Data;
 using BookStore.Models;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using Newtonsoft.Json;
 using System;
 using System.Collections;
@@ -15,7 +17,7 @@ namespace BookStore.Client
 {
     public partial class MainWindow : Window
     {
-        IList productsInCart;
+        public IList productsInCart = new List<Product>();
         decimal priceOfAllProducts = 0;
 
         public MainWindow()
@@ -173,14 +175,7 @@ namespace BookStore.Client
             }
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-        }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -191,13 +186,21 @@ namespace BookStore.Client
 
             foreach (dynamic item in DataGrid1.SelectedItems)
             {
-                productsInCart.Add(item.Id);
                 priceOfAllProducts += (decimal)item.Price;
                 totalPrice.Content = priceOfAllProducts;
-            }
 
-            
-            
+                productsInCart.Add(new Product
+                {
+                    Id = item.Id,
+                    Book__Name = item.Book__Name,
+                    Genre__Name = item.Genre__Name,
+                    Price = item.Price.ToString(),
+                    Category = item.Category,
+                    Serie = item.Serie,
+                    Author__First__Name = item.Author__First__Name,
+                    Author__Last__Name = item.Author__Last__Name
+                });
+            }
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -241,14 +244,14 @@ namespace BookStore.Client
                 tempBook.Serie = book.Serie;
                 tempBook.Category = tempBook.Category;
 
-                
-                    using (var dbContext = new BookStoreContext())
-                    {
-                        dbContext.Series.Add(tempSeries);
-                        dbContext.Categories.Add(tempCategory);
-                        dbContext.Genres.Add(tempGenre);
-                        dbContext.Authors.Add(tempAuthor);
-                        dbContext.Books.Add(tempBook);
+
+                using (var dbContext = new BookStoreContext())
+                {
+                    dbContext.Series.Add(tempSeries);
+                    dbContext.Categories.Add(tempCategory);
+                    dbContext.Genres.Add(tempGenre);
+                    dbContext.Authors.Add(tempAuthor);
+                    dbContext.Books.Add(tempBook);
                     try
                     {
                         dbContext.SaveChanges();
@@ -268,27 +271,43 @@ namespace BookStore.Client
                     }
                 }
 
-                
-                
+
+
 
             }
 
 
         }
 
+        private void DataGrid1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+        }
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
-
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
+            FileStream fs = new FileStream("C:\\Users\\deso9\\Desktop\\BooksInCart.pdf", FileMode.Create, FileAccess.ReadWrite, FileShare.None);
+            Document doc = new Document();
+            PdfWriter writer = PdfWriter.GetInstance(doc, fs);
+            doc.Open();
 
-        }
-
-        private void DataGrid1_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
+            foreach (Product product in productsInCart)
+            {
+                Paragraph text = new Paragraph($"{product.Id.ToString()} {product.Book__Name} {product.Category} {product.Genre__Name} {product.Price} {product.Serie} {product.Author__First__Name} {product.Author__Last__Name}");
+                
+                doc.Add(text);
+            }
+            doc.Close();
         }
     }
 }

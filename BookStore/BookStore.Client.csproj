@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -115,10 +116,6 @@
     <ProjectReference Include="..\BookStore.Models\BookStore.Models.csproj">
       <Project>{EE9B4922-EE08-4180-A272-4C020957A774}</Project>
       <Name>BookStore.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ClassLibrary1\BookStore.Data.csproj">
-      <Project>{D5165B4A-3C3E-47B1-A6B3-F94CAB7869B2}</Project>
-      <Name>BookStore.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
