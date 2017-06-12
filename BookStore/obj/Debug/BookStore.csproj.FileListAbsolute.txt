@@ -20,3 +20,28 @@ c:\users\deso9\documents\visual studio 2017\Projects\BookStore\BookStore\obj\Deb
 c:\users\deso9\documents\visual studio 2017\Projects\BookStore\BookStore\obj\Debug\BookStore.pdb
 c:\users\deso9\documents\visual studio 2017\Projects\BookStore\BookStore\obj\Debug\BookStore.Migrations.Initial.resources
 c:\users\deso9\documents\visual studio 2017\Projects\BookStore\BookStore\obj\Debug\BookStore.Migrations.Addednametobooks.resources
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.exe.config
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.exe
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.pdb
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Models.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\EntityFramework.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\BookStore.Models.pdb
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\EntityFramework.xml
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\MainWindow.g.cs
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\App.g.cs
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore_MarkupCompile.cache
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore_MarkupCompile.lref
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\MainWindow.baml
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.g.resources
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.Migrations.Initial.resources
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.Migrations.Addednametobooks.resources
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.Properties.Resources.resources
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.csproj.GenerateResource.Cache
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.exe
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.pdb
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\obj\Debug\BookStore.Migrations.addedrequired.resources
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\BookStore\bin\Debug\Newtonsoft.Json.xml

@@ -1,11 +1,11 @@
-namespace BookStore.Migrations
+namespace BookStore.Client.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<BookStore.BookStoreContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BookStore.Data.BookStoreContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace BookStore.Migrations
             AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(BookStore.BookStoreContext context)
+        protected override void Seed(Data.BookStoreContext context)
         {
             //  This method will be called after migrating to the latest version.
 

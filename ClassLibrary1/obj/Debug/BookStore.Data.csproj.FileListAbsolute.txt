@@ -1,0 +1,13 @@
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\BookStore.Data.dll.config
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\BookStore.Data.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\BookStore.Data.pdb
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\BookStore.Models.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\BookStore.Models.pdb
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\obj\Debug\BookStore.Data.csprojResolveAssemblyReference.cache
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\obj\Debug\BookStore.Data.dll
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\obj\Debug\BookStore.Data.pdb
+C:\Users\deso9\Documents\GitHub\DB-Teamwork\ClassLibrary1\bin\Debug\BookStore.Models.dll.config
