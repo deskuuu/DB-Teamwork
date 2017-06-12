@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Client", "BookStore.Client\BookStore.Client.csproj", "{20CAA9E2-10F8-4244-8A6D-62816894A95A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data.SqlServer", "BookStore.Data\BookStore.Data.SqlServer.csproj", "{D5165B4A-3C3E-47B1-A6B3-F94CAB7869B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data.SqlServer", "BookStore.Data.SqlServer\BookStore.Data.SqlServer.csproj", "{D5165B4A-3C3E-47B1-A6B3-F94CAB7869B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data.SqLite", "BookStore.Data.SqLite\BookStore.Data.SqLite.csproj", "{C013BDA7-B4A3-4F8F-8E26-2BD07339539A}"
 EndProject
